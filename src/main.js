@@ -38,7 +38,7 @@ function main() {
 
   const geometrySphere = new THREE.SphereGeometry(1, 34, 22);
   const loader = new THREE.TextureLoader();
-  const texture = loader.load("resources/images/flower-1.jpg");
+  const texture = loader.load("../resources/images/flower-1.jpg");
   texture.colorSpace = THREE.SRGBColorSpace;
   const materialSphere = new THREE.MeshBasicMaterial({
     map: texture,
